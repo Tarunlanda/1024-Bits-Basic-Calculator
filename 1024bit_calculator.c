@@ -1,4 +1,5 @@
 #include<stdio.h>
+/*BT20CSE074_CPL_Assignment_2.c*/
 typedef struct bigint//defining the structure Bigint
 {//As we are implementing 1024 bit arithmetic operations we need to see max how many digits can be there. For that we need to equate 2^1024 = 10^p
     char str[310];//log(2^1024)=p =>p= 308.2547155599 =>so 2^1024 will have step(308.2547155599)+1=309
