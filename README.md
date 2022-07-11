@@ -11,4 +11,4 @@
 * After multiplication again its chcked whether it is in range of 1024 bit or not.
 ## Assumptions
 * The numbers are always positive.
-* The input doesn't contain 0's before the input.
+* The input number doesn't contain extra 0's before the number.
