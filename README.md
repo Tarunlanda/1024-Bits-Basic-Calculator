@@ -8,4 +8,7 @@ It can add, subtract and multiply and displays only if result is in range of 102
 ## Idea used
     So given Input is stored in an string string in the bigint user defined data type along with size.
     When ever it has 308 input charactors we check whether the number is greater than 2^1024-1 or not.
-    
+    After multiplication again its chcked whether it is in range of 1024 bit or not.
+## Assumptions
+    The numbers are always positive.
+    The input doesn't contain 0's before the input.
